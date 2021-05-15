@@ -1,37 +1,67 @@
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/Tianmo1/mods/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Tianmo1/mods/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <title>站点创建成功-phpstudy for windows</title>
+  <meta name="keywords" content="">
+  <meta name="description" content="">
+  <meta name="renderer" content="webkit">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black"> 
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="format-detection" content="telephone=no">
+  <meta HTTP-EQUIV="pragma" CONTENT="no-cache"> 
+  <meta HTTP-EQUIV="Cache-Control" CONTENT="no-store, must-revalidate"> 
+  <meta HTTP-EQUIV="expires" CONTENT="Wed, 26 Feb 1997 08:21:57 GMT"> 
+  <meta HTTP-EQUIV="expires" CONTENT="0">
+  <style>
+    body{
+      font: 16px arial,'Microsoft Yahei','Hiragino Sans GB',sans-serif;
+    }
+    h1{
+      margin: 0;
+      color:#3a87ad;
+      font-size: 26px;
+    }
+    .content{
+      width: 45%;
+      margin: 0 auto;
+     
+    }
+    .content >div{
+      margin-top: 200px;
+      padding: 20px;
+      background: #d9edf7;  
+      border-radius: 12px;
+    }
+    .content dl{
+      color: #2d6a88;
+      line-height: 40px;
+    } 
+    .content div div {
+      padding-bottom: 20px;
+      text-align:center;
+    }
+  </style>
+</head>
+<body>
+  <div class="content">
+      <div>
+           <h1>站点创建成功</h1>
+        <dl>
+          <dt>目录说明:</dt>
+          <dd>1：网站目录：/phpstudy安装目录/www/站点域名/</dd>
+          <dd>2：错误提示页面：/phpstudy安装目录/www/站点域名/error/</dd>
+          <dd>3：你可以删除或者修改该目录下的所有文件</dd>
+          <dt>操作注意事项：</dt>
+          <dd>1：新建站点、数据库、FTP可在phpstudy面板操作，数据库可在环境中下载数据库管理软件等；</dd>
+          <dd>2：将网站程序放到站点目录时请使用复制，剪切可能造成程序文件权限不正确；</dd>
+         
+        </dl>
+        <div>使用手册，视频教程，BUG反馈，官网地址： <a href="https://www.xp.cn"  target="_blank">www.xp.cn</a> </div>
+    
+      </div>
+    </div> 
+</body>
+</html>
